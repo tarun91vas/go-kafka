@@ -1,6 +1,6 @@
-## Kafka setup and scritps
+## Kafka setup and scripts
 
-### Kafka Installtion
+### Kafka Installation
 
 ```
 ./install.sh /path/to/install
@@ -19,7 +19,7 @@
 - Send messages in producer console to receive at consumer console
 - For a multi broker cluster, start more than one broker by creating more server.properties file and increasing the replication factor as described [here](https://kafka.apache.org/quickstart#quickstart_multibroker)
 
-## Kafka producer and consumers in go
+## Kafka producer and consumer clients in go
 
 ### Prerequisites
 - [gb tool](https://getgb.io/) 
