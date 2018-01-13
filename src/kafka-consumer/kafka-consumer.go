@@ -11,6 +11,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	fmt.Println("Connection Successful !!")
 
 	messages, err := consumer.ConsumePartition("test-topic", 0, kafka.OffsetNewest)
 	if err != nil {
